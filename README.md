@@ -1,38 +1,5 @@
 # linux-second-mini-project
-# Side Hustle Task 1 - Linux Terminal Directory Operations
-
-This document explains how I successfully completed **Side Hustle Task 1**, which involved working with directories inside a Linux terminal. The task includes creating directories, navigating the file system, and displaying paths.
-
----
-
-##  Task Breakdown
-
-### 1. Navigating to the `/usr` Directory
-
-To begin, I opened my terminal. I was initially located in my home directory:
-
-```
-ubuntu@ubuntu-vm:~$
-```
-
-I navigated to the `/usr` directory using the command:
-
-```
-cd /usr
-```
-
-Then, I confirmed my current path with:
-
-```
-pwd
-```
-
-Output:
-```
-/usr
-```
-
----
+# Side Hustle Task 1 - Linux Terminal Dire
 
 ###  2. Creating a Directory Named `photos` Inside `/usr`
 
@@ -44,38 +11,43 @@ sudo mkdir /usr/photos
 
 ---
 
-### âœ… 3. Navigating into the `photos` Directory
+![](https://github.com/adaezeokoduwa/linux-second-mini-project/blob/main/pics/creating-folders.png?raw=true)
+### 3. Navigating into the `photos` Directory
 
 I moved into the newly created `photos` directory:
 
-```bash
+```
 cd /usr/photos
 ```
 
 Then I verified my location:
 
-```bash
+```
 pwd
 ```
 
 Output:
-```bash
+```
 /usr/photos
 ```
 
 ---
 
-### âœ… 4. Creating 3 Random Directories Inside `photos`
+### 4. Creating 3 Random Directories Inside `photos`
 
-I chose to name the directories `vacation`, `family`, and `events`. I created them using:
+I chose to name the directories `3mtt`, `darey`, and `training`. I created them using:
 
-```bash
-sudo mkdir vacation family events
+```
+sudo mkdir 3mtt
+sudo mkdir darey
+sudo mkdir training
+
 ```
 
 ---
+![](https://github.com/adaezeokoduwa/linux-second-mini-project/blob/main/pics/folders-created.png?raw=true)
 
-### âœ… 5. Displaying the Newly Created Directories
+###  5. Displaying the Newly Created Directories
 
 To verify the directories were created successfully, I listed the contents of the `photos` directory:
 
@@ -84,37 +56,37 @@ ls
 ```
 
 Output:
-```bash
-vacation  family  events
+```
+3mtt    darey   training
 ```
 
 ---
 
-### âœ… 6. Navigating Into One of the Directories
+### 6. Navigating Into One of the Directories
 
-I navigated into the `vacation` directory:
+I navigated into the `darey` directory:
 
-```bash
-cd vacation
+```
+cd darey
 ```
 
 ---
 
-### âœ… 7. Showing the Full Path of the Current Location
+### 7. Showing the Full Path of the Current Location
 
 Finally, I displayed the full path of my current working directory using:
 
-```bash
+```
 pwd
 ```
 
 Output:
-```bash
-/usr/photos/vacation
+```
+/usr/photos/darey
 ```
 
 ---
-
-## âœ… Conclusion
+![](https://github.com/adaezeokoduwa/linux-second-mini-project/blob/main/pics/showing%20path.png?raw=true)
+## Conclusion
 
 This task helped reinforce my understanding of basic Linux terminal commands such as `cd`, `mkdir`, `ls`, and `pwd`. I also practiced using `sudo` for administrative tasks. All steps were completed successfully.
